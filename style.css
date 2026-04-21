@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px 0;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.form .row {
+  display: flex;
+  gap: 10px;
+}
+
+.form .msg {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #4CAF50;
+}
+
+.add {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add:hover {
+  background-color: #45a049;
+}
+
+.tasks {
+  width: 90%;
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 100px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done {
+  opacity: 0.5;
+}
+
+.task span {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
